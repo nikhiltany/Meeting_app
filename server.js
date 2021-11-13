@@ -42,6 +42,6 @@ io.on('connection', socket => {
   })
 
 
-server.listen(3030);
+server.listen(process.env.PORT||3030);
 
-//To run this project use nodemon server.js on your terminal after npm i (3:10)
+//To run this project use nodemon server.js on your terminal after npm i 
